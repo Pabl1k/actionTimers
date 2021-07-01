@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 
-export const Test = () => {
+export const FirstTimerMain = () => {
     const [timer, setTimer] = useState<number>(0);
     const [color, setColor] = useState<number>(111);
     let changeEvery = 20;
